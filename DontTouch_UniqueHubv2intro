@@ -151,7 +151,10 @@ local function UNCWKBO_fake_script() --[[ Main.Main ]]
 	local par = String
 	
 	par.Text = ""
-	if not game:IsLoaded() then game:IsLoaded() task.wait(3) end
+	if not game:IsLoaded() then game:IsLoaded() wait() end
+	task.wait(1)
+		Pattern.Visible=false
+	TextLabel.Visible=false
 	Main.Visible =true
 	Main:TweenSize(UDim2.new(0, 267,0, 174), "InOut", "Quint", 1)
 	
@@ -165,12 +168,11 @@ local function UNCWKBO_fake_script() --[[ Main.Main ]]
 	task.wait(0.5)
 	par.Text = "just kidding"
 	keylol.Visible = false
-	task.wait(0.4)
-	par.Text = "Checking Script"
-	task.wait(1)
+	task.wait(0.7)
+	par.Text = ""
 	repeat wait() until game.Players.LocalPlayer
 	if _G.ScriptStillNotTakenDown == true then
-		par.Text = "Done"
+		par.Text = "Ready to load"
 	end
 	
 	script.Parent:FindFirstChild("LoadScript").Visible = true
@@ -184,9 +186,8 @@ local function UNCWKBO_fake_script() --[[ Main.Main ]]
 		task.wait(1)
 		pcall(function()
 			Intro:Destroy()
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/UniqueHub/main/Unique_Hub_v2.lua'))() -- will always update no need to do anything
 			end)
-        
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/UniqueHub/main/Unique_Hub_v2.lua', true))() -- will always update no need to do anything
 	end)
 	
 	
