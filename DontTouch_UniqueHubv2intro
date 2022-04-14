@@ -1,0 +1,241 @@
+-- dont call me bad scripter you already know i am and yes this intro is fully open source make your own i dont know
+
+local Intro = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local String = Instance.new("TextLabel")
+local LoadScript = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local textholder = Instance.new("TextLabel")
+local line = Instance.new("Frame")
+local Pattern = Instance.new("ImageLabel")
+local keylol = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+
+Intro.Name = "Intro"
+Intro.Parent = game.CoreGui
+Intro.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Intro.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = Intro
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
+Main.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Main.Position = UDim2.new(0.498903811, 0, 0.499359965, 0)
+Main.Size = UDim2.new(0, 267, 0, 174)
+
+UICorner.CornerRadius = UDim.new(0, 6)
+UICorner.Parent = Main
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 267, 0, 17)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Unique Hub v2"
+TextLabel.TextColor3 = Color3.fromRGB(131, 131, 131)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+String.Name = "String"
+String.Parent = Main
+String.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+String.BackgroundTransparency = 1.000
+String.BorderSizePixel = 0
+String.Position = UDim2.new(0, 0, 0.319749326, 0)
+String.Size = UDim2.new(0, 267, 0, 30)
+String.ZIndex = 2
+String.Font = Enum.Font.FredokaOne
+String.Text = "Text"
+String.TextColor3 = Color3.fromRGB(255, 255, 255)
+String.TextScaled = true
+String.TextSize = 18.000
+String.TextWrapped = true
+
+LoadScript.Name = "LoadScript"
+LoadScript.Parent = Main
+LoadScript.BackgroundColor3 = Color3.fromRGB(95, 124, 185)
+LoadScript.BorderSizePixel = 0
+LoadScript.Position = UDim2.new(0.162921354, 0, 0.580459774, 0)
+LoadScript.Size = UDim2.new(0, 180, 0, 38)
+LoadScript.Visible = false
+LoadScript.ZIndex = 2
+LoadScript.AutoButtonColor = false
+LoadScript.Font = Enum.Font.GothamSemibold
+LoadScript.Text = ""
+LoadScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadScript.TextScaled = true
+LoadScript.TextSize = 14.000
+LoadScript.TextWrapped = true
+
+UICorner_2.Parent = LoadScript
+
+textholder.Name = "textholder"
+textholder.Parent = LoadScript
+textholder.AnchorPoint = Vector2.new(0.5, 0.5)
+textholder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textholder.BackgroundTransparency = 1.000
+textholder.BorderColor3 = Color3.fromRGB(27, 42, 53)
+textholder.BorderSizePixel = 0
+textholder.Position = UDim2.new(0.5, 0, 0.5, 0)
+textholder.Size = UDim2.new(1, -20, 1, -20)
+textholder.ZIndex = 2
+textholder.Font = Enum.Font.GothamSemibold
+textholder.Text = "Load Unique Hub v2"
+textholder.TextColor3 = Color3.fromRGB(255, 255, 255)
+textholder.TextScaled = true
+textholder.TextSize = 14.000
+textholder.TextWrapped = true
+
+line.Name = "line"
+line.Parent = LoadScript
+line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0, 0, 1.15789473, 0)
+line.Size = UDim2.new(0, 180, 0, 3)
+
+Pattern.Name = "Pattern"
+Pattern.Parent = Main
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Position = UDim2.new(0.0018726592, 0, 0, 0)
+Pattern.Size = UDim2.new(0, 267, 0, 174)
+Pattern.Image = "rbxassetid://300134974"
+Pattern.ImageTransparency = 0.950
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 90, 0, 90)
+
+keylol.Name = "keylol"
+keylol.Parent = Main
+keylol.BackgroundColor3 = Color3.fromRGB(95, 124, 185)
+keylol.BorderSizePixel = 0
+keylol.Position = UDim2.new(0.123595506, 0, 0.551724136, 0)
+keylol.Size = UDim2.new(0, 200, 0, 50)
+keylol.Visible = false
+keylol.Font = Enum.Font.SourceSans
+keylol.PlaceholderColor3 = Color3.fromRGB(171, 171, 171)
+keylol.PlaceholderText = "Key"
+keylol.Text = ""
+keylol.TextColor3 = Color3.fromRGB(255, 255, 255)
+keylol.TextScaled = true
+keylol.TextSize = 14.000
+keylol.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 6)
+UICorner_3.Parent = keylol
+
+local function ZGAYBKJ_fake_script() --[[ LoadScript.mousenter ]]
+	local script = Instance.new('LocalScript', LoadScript)
+
+	script.Parent.MouseEnter:Connect(function()
+		LoadScript.BackgroundColor3 = Color3.new(0.415686, 0.545098, 0.807843)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		LoadScript.BackgroundColor3 = Color3.new(0.372549, 0.486275, 0.72549)
+	end)
+end
+coroutine.wrap(ZGAYBKJ_fake_script)()
+local function UNCWKBO_fake_script() --[[ Main.Main ]]
+	local script = Instance.new('LocalScript', Main)
+
+	
+	_G.ScriptStillNotTakenDown = true
+	script.Parent.Parent.Main.Size = UDim2.new(0,0,0,0)
+	script.Parent.Parent.Main.Visible=false
+	local par = String
+	
+	par.Text = ""
+	if not game:IsLoaded() then game:IsLoaded() task.wait(3) end
+	Main.Visible =true
+	Main:TweenSize(UDim2.new(0, 267,0, 174), "InOut", "Quint", 1)
+	
+	task.wait(1)
+	par.Visible=true
+	
+	Pattern.Visible=true
+	TextLabel.Visible=true
+	par.Text = "Enter Key To Proceed"
+	keylol.Visible = true
+	task.wait(0.5)
+	par.Text = "just kidding"
+	keylol.Visible = false
+	task.wait(0.4)
+	par.Text = "Checking Script"
+	task.wait(1)
+	repeat wait() until game.Players.LocalPlayer
+	if _G.ScriptStillNotTakenDown == true then
+		par.Text = "Done"
+	end
+	
+	script.Parent:FindFirstChild("LoadScript").Visible = true
+	
+	script.Parent:FindFirstChild("LoadScript").MouseButton1Click:Connect(function()
+		par.Visible=false
+		LoadScript.Visible=false
+		Pattern.Visible=false
+		TextLabel.Visible=false
+		Main:TweenSize(UDim2.new(0, 0, 0, 0), "Out", "Bounce", 1)
+		task.wait(1)
+		pcall(function()
+			Intro:Destroy()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/UniqueHub/main/Unique_Hub_v2.lua'))() -- will always update no need to do anything
+			end)
+        
+	end)
+	
+	
+end
+coroutine.wrap(UNCWKBO_fake_script)()
+local function JZUAXU_fake_script() --[[ Main.Dragify ]]
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService("UserInputService")
+	local dragSpeed = -math.huge
+	
+	local dragToggle = nil
+	local dragInput = nil
+	local dragStart = nil
+	local dragPos = nil
+	
+	function dragify(Frame)
+		function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        script.Parent.Position = Position
+		end
+		
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+		end)
+		
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+		end)
+		
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(JZUAXU_fake_script)()
