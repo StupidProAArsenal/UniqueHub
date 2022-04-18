@@ -1,7 +1,8 @@
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
 
 pcall(function()
-game.CoreGui:FindFirstChild("dosage's solaris gui").Parent = nil -- please ignore
+game.CoreGui:FindFirstChild("dosage's solaris gui").Parent = game.ReplicatedStorage -- please ignore
+    game.CoreGui:FindFirstChild("notiHolder").Parent = game.ReplicatedStorage -- please ignore
 end)
 
 if game.PlaceId == 3829055572 then
