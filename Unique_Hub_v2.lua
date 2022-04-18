@@ -8,5 +8,9 @@ end)
 if game.PlaceId == 3829055572 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/lolz%20underground%20war"))()
 else
+if game.PlaceId == 189707 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/funny%20disaster%20survival"))()
+else
 Notification.new("error", "Error", "Game Not Supported")
+end
 end
