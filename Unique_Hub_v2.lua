@@ -3,6 +3,7 @@ Games
 
 The Underground War, [3829055572]
 Natural Disaster Survival, [189707]
+Rebirth Champions X, [8540346411]
 ]]
 
 
@@ -66,6 +67,12 @@ else
 if game.PlaceId == 189707 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/funny%20disaster%20survival"))()
 else
+if game.PlaceId == 8540346411 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/broke%20champions%20x"))()            
+end
+else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/unSupported%20Game%20Lib"))()
 Notification.new("error", "Error", "Game Not Supported")
+end
 end
 end
