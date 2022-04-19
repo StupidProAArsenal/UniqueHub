@@ -69,7 +69,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/
 else
 if game.PlaceId == 8540346411 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/broke%20champions%20x"))()            
-end
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/unSupported%20Game%20Lib"))()
 Notification.new("error", "Error", "Game Not Supported")
