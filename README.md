@@ -5,7 +5,7 @@ A simple game hub with cool UI Library and Somehow alot features
 # Do you log info's
 No, I did not put any logging
 
-# Will this game hub be paid with few game's
+# Will this game hub be paid with few games
 Never, This game hub is 100% Free!
 
 # When i execute it says 404 not found, What do i do?
@@ -16,4 +16,10 @@ Report it as Issue! I will try to fix
 
 # Do you have team to help you with this hub?
 No! Im a Solo Developer as always
+
+# How well do you know lua + How did you learn lua
+A lot (Not Really)
+
+Roblox Studio
+
 
