@@ -12,7 +12,10 @@ Never, This game hub is 100% Free!
 Probably deleted. I have backup files. Not a problem!
 
 # The game banned me for exploiting
-Report it as Issue! I will try to fix 
+Report it as Issue! I will try to fix
+
+![image](https://user-images.githubusercontent.com/76736126/164566304-6c61b092-6af3-4f66-a5c6-52e216bfe418.png)
+
 
 # Do you have team to help you with this hub?
 No! im a Solo Scripter as always
