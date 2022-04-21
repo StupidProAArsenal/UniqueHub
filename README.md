@@ -11,6 +11,9 @@ Never, This game hub is 100% Free!
 # When i execute it says 404 not found, What do i do?
 Probably deleted. I have backup files. Not a problem!
 
-# Why are you in this page
-Reporting Issues, Checking Files?
+# The game banned me for exploiting
+Report it as Issue! I will try to fix 
+
+# Do you have team to help you with this hub?
+No! Im a Solo Developer as always
 
