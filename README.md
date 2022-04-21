@@ -3,7 +3,7 @@
 A simple game hub with cool UI Library and Somehow alot features
 
 # Do you log info's
-No, I did not put any logging
+No, I did not put any logging & I never do
 
 # Will this game hub be paid with few games
 Never, This game hub is 100% Free!
