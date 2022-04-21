@@ -15,7 +15,7 @@ Probably deleted. I have backup files. Not a problem!
 Report it as Issue! I will try to fix 
 
 # Do you have team to help you with this hub?
-No! Im a Solo Developer as always
+No! im a Solo Scripter as always
 
 # How well do you know lua + How did you learn lua
 A lot (Not Really)
