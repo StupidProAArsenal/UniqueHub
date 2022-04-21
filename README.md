@@ -8,8 +8,13 @@ No, I did not put any logging & Never
 # Will this game hub be paid with few games
 Never, This game hub is 100% Free!
 
-# When i execute it says 404 not found, What do i do?
+# When i execute it says Http 404 not found, What do i do?
 Probably deleted. I have backup files. Not a problem!
+
+May look like this:
+
+![image](https://user-images.githubusercontent.com/76736126/164566441-29a73ee7-f3f4-44f5-8a80-b04cbfbb4eae.png)
+
 
 # The game banned me for exploiting
 Report it as Issue! I will try to fix
