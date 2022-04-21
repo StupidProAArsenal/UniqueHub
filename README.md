@@ -2,7 +2,7 @@
 
 A simple game hub with cool UI Library and Somehow alot features
 
-![image](https://user-images.githubusercontent.com/76736126/164566887-50074eee-9cf9-434c-bd16-f7f03c9d82ea.png)
+![image](https://user-images.githubusercontent.com/76736126/164567159-fd1b9abd-c2aa-4a9f-bd7a-7299533029b5.png)
 
 
 # Do you log info's
