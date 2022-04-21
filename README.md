@@ -22,4 +22,6 @@ A lot (Not Really)
 
 Roblox Studio
 
+# How do i request a game?
+Request a Issue for a new game
 
