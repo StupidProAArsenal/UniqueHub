@@ -62,15 +62,15 @@ game.CoreGui:FindFirstChild("dosage's solaris gui").Parent = game.ReplicatedStor
 end)
 
 if game.PlaceId == 3829055572 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/lolz%20underground%20war"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/lolz%20underground%20war"))()
 else
 if game.PlaceId == 189707 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/funny%20disaster%20survival"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/funny%20disaster%20survival"))()
 else
 if game.PlaceId == 8540346411 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/broke%20champions%20x"))()            
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/broke%20champions%20x"))()            
 else
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jynzl/UniqueHub/main/unSupported%20Game%20Lib"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/unSupported%20Game%20Lib"))()
 Notification.new("error", "Error", "Game Not Supported")
 end
 end
