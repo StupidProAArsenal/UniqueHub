@@ -72,7 +72,7 @@ if game.PlaceId == 8540346411 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/broke%20champions%20x"))()            
 else
 if game.PlaceId == 2965881766 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/brawl%20blex.lua"))()  
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/brawl%20blex"))()  
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/unSupported%20Game%20Lib"))()
 Notification.new("error", "Error", "Game Not Supported")
