@@ -187,7 +187,7 @@ local function UNCWKBO_fake_script() --[[ Main.Main ]]
 		pcall(function()
 			Intro:Destroy()
 			end)
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/Unique_Hub_v2.lua', true))() -- will always update no need to do anything
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/Unique_Hub_v2', true))() -- will always update no need to do anything
 	end)
 	
 	
