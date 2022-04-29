@@ -592,6 +592,7 @@ local function LGSZD_fake_script() -- Main.GamesLister, hi dont look at my code
 	CreateGameList("The Underground War", true)
 	CreateGameList("Natural Disaster Survival", true)
 	CreateGameList("Rebirth Champions X", true)
+	CreateGameList("Brawl-Blox", true)
 	
 	
 end
