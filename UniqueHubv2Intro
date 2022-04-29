@@ -384,9 +384,7 @@ local function AEQQCWR_fake_script() -- load.loadscript
 	end
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		pcall(function()
-			HubLoadStr(true)
-		end)
+		
 		for i,things in pairs(v:GetChildren()) do
 	
 			if things:IsA("Frame") then
@@ -402,6 +400,9 @@ local function AEQQCWR_fake_script() -- load.loadscript
 	
 		end
 		v:TweenSize(UDim2.new(0,0,0,0), "InOut", "Quint", 1)
+		pcall(function()
+			HubLoadStr(true)
+		end)
 		wait(1)
 		z:Destroy()
 	end)
@@ -481,7 +482,7 @@ local function YKTCXTK_fake_script() -- text1.LocalScript
 	local workinglol = true
 	local ConfirmWorking = "NO TEXT"
 	if workinglol==true then ConfirmWorking="Yes" else ConfirmWorking="No" end
-	script.Parent.Text = "Game: " ..getgamename.. " | Working: " ..ConfirmWorking
+	script.Parent.Text = "Game: " ..getgamename.. " | U-Hub v2 Working: " ..ConfirmWorking
 end
 coroutine.wrap(YKTCXTK_fake_script)()
 local function GPYRJLN_fake_script() -- Main.MainScript 
