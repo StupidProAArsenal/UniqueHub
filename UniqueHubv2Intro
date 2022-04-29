@@ -1,242 +1,597 @@
--- dont call me bad scripter you already know i am and yes this intro is fully open source make your own i dont know
-
-local Intro = Instance.new("ScreenGui")
+-- This was scripted in ROBLOX Studio!!!! also me bad scripter
+local uniquehubv2Intro = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local String = Instance.new("TextLabel")
-local LoadScript = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local Buttonframe = Instance.new("Frame")
+local load = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local textholder = Instance.new("TextLabel")
-local line = Instance.new("Frame")
-local Pattern = Instance.new("ImageLabel")
-local keylol = Instance.new("TextBox")
+local UIGradient = Instance.new("UIGradient")
+local cancel = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local copy = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local outlineload = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local outlinecancel = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local outlinecopy = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local orTextLabel = Instance.new("TextLabel")
+local GamesList = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local button = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local button_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local text1 = Instance.new("TextLabel")
+local text2 = Instance.new("TextLabel")
+local realsecrettext = Instance.new("TextLabel")
+local z = Instance.new("TextLabel")
+local notify = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Title_2 = Instance.new("TextLabel")
+local desc = Instance.new("TextLabel")
+local ok = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local placeholdr = Instance.new("Folder")
+local button_3 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
 
-Intro.Name = "Intro"
-Intro.Parent = game.CoreGui
-Intro.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Intro.ResetOnSpawn = false
+uniquehubv2Intro.Name = "uniquehubv2Intro"
+uniquehubv2Intro.Parent = game.CoreGui
+uniquehubv2Intro.ResetOnSpawn = false
 
 Main.Name = "Main"
-Main.Parent = Intro
+Main.Parent = uniquehubv2Intro
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
-Main.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Main.Position = UDim2.new(0.498903811, 0, 0.499359965, 0)
-Main.Size = UDim2.new(0, 267, 0, 174)
+Main.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+Main.Size = UDim2.new(0, 313, 0, 334)
 
-UICorner.CornerRadius = UDim.new(0, 6)
+UICorner.CornerRadius = UDim.new(0, 4)
 UICorner.Parent = Main
 
-TextLabel.Parent = Main
-TextLabel.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderSizePixel = 0
-TextLabel.Size = UDim2.new(0, 267, 0, 17)
-TextLabel.ZIndex = 2
-TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "Unique Hub v2"
-TextLabel.TextColor3 = Color3.fromRGB(131, 131, 131)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0223642178, 0, 0.026058631, 0)
+Title.Size = UDim2.new(0, 297, 0, 16)
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "UNIQUE HUB V2"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
 
-String.Name = "String"
-String.Parent = Main
-String.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-String.BackgroundTransparency = 1.000
-String.BorderSizePixel = 0
-String.Position = UDim2.new(0, 0, 0.319749326, 0)
-String.Size = UDim2.new(0, 267, 0, 30)
-String.ZIndex = 2
-String.Font = Enum.Font.FredokaOne
-String.Text = "Text"
-String.TextColor3 = Color3.fromRGB(255, 255, 255)
-String.TextScaled = true
-String.TextSize = 18.000
-String.TextWrapped = true
+Buttonframe.Name = "Buttonframe"
+Buttonframe.Parent = Main
+Buttonframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Buttonframe.BackgroundTransparency = 1.000
+Buttonframe.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Buttonframe.BorderSizePixel = 0
+Buttonframe.Position = UDim2.new(-0.00215251325, 0, 0.649166822, 0)
+Buttonframe.Size = UDim2.new(0, 314, 0, 67)
 
-LoadScript.Name = "LoadScript"
-LoadScript.Parent = Main
-LoadScript.BackgroundColor3 = Color3.fromRGB(95, 124, 185)
-LoadScript.BorderSizePixel = 0
-LoadScript.Position = UDim2.new(0.162921354, 0, 0.580459774, 0)
-LoadScript.Size = UDim2.new(0, 180, 0, 38)
-LoadScript.Visible = false
-LoadScript.ZIndex = 2
-LoadScript.AutoButtonColor = false
-LoadScript.Font = Enum.Font.GothamSemibold
-LoadScript.Text = ""
-LoadScript.TextColor3 = Color3.fromRGB(255, 255, 255)
-LoadScript.TextScaled = true
-LoadScript.TextSize = 14.000
-LoadScript.TextWrapped = true
+load.Name = "load"
+load.Parent = Buttonframe
+load.BackgroundColor3 = Color3.fromRGB(109, 144, 213)
+load.Position = UDim2.new(0.549286783, 0, 0.323966861, 0)
+load.Size = UDim2.new(0, 133, 0, 24)
+load.ZIndex = 2
+load.Font = Enum.Font.Roboto
+load.Text = "Load"
+load.TextColor3 = Color3.fromRGB(255, 255, 255)
+load.TextScaled = true
+load.TextSize = 14.000
+load.TextWrapped = true
 
-UICorner_2.Parent = LoadScript
+UICorner_2.CornerRadius = UDim.new(0, 6)
+UICorner_2.Parent = load
 
-textholder.Name = "textholder"
-textholder.Parent = LoadScript
-textholder.AnchorPoint = Vector2.new(0.5, 0.5)
-textholder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-textholder.BackgroundTransparency = 1.000
-textholder.BorderColor3 = Color3.fromRGB(27, 42, 53)
-textholder.BorderSizePixel = 0
-textholder.Position = UDim2.new(0.5, 0, 0.5, 0)
-textholder.Size = UDim2.new(1, -20, 1, -20)
-textholder.ZIndex = 2
-textholder.Font = Enum.Font.GothamSemibold
-textholder.Text = "Load Unique Hub v2"
-textholder.TextColor3 = Color3.fromRGB(255, 255, 255)
-textholder.TextScaled = true
-textholder.TextSize = 14.000
-textholder.TextWrapped = true
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.88, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 0))}
+UIGradient.Parent = load
 
-line.Name = "line"
-line.Parent = LoadScript
-line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-line.BorderSizePixel = 0
-line.Position = UDim2.new(0, 0, 1.15789473, 0)
-line.Size = UDim2.new(0, 180, 0, 3)
-
-Pattern.Name = "Pattern"
-Pattern.Parent = Main
-Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Pattern.BackgroundTransparency = 1.000
-Pattern.Position = UDim2.new(0.0018726592, 0, 0, 0)
-Pattern.Size = UDim2.new(0, 267, 0, 174)
-Pattern.Image = "rbxassetid://300134974"
-Pattern.ImageTransparency = 0.950
-Pattern.ScaleType = Enum.ScaleType.Tile
-Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
-Pattern.TileSize = UDim2.new(0, 90, 0, 90)
-
-keylol.Name = "keylol"
-keylol.Parent = Main
-keylol.BackgroundColor3 = Color3.fromRGB(95, 124, 185)
-keylol.BorderSizePixel = 0
-keylol.Position = UDim2.new(0.123595506, 0, 0.551724136, 0)
-keylol.Size = UDim2.new(0, 200, 0, 50)
-keylol.Visible = false
-keylol.Font = Enum.Font.SourceSans
-keylol.PlaceholderColor3 = Color3.fromRGB(171, 171, 171)
-keylol.PlaceholderText = "Key"
-keylol.Text = ""
-keylol.TextColor3 = Color3.fromRGB(255, 255, 255)
-keylol.TextScaled = true
-keylol.TextSize = 14.000
-keylol.TextWrapped = true
+cancel.Name = "cancel"
+cancel.Parent = Buttonframe
+cancel.BackgroundColor3 = Color3.fromRGB(109, 144, 213)
+cancel.Position = UDim2.new(0.0269937702, 0, 0.323966861, 0)
+cancel.Size = UDim2.new(0, 133, 0, 24)
+cancel.ZIndex = 2
+cancel.Font = Enum.Font.Roboto
+cancel.Text = "Cancel"
+cancel.TextColor3 = Color3.fromRGB(255, 255, 255)
+cancel.TextScaled = true
+cancel.TextSize = 14.000
+cancel.TextWrapped = true
 
 UICorner_3.CornerRadius = UDim.new(0, 6)
-UICorner_3.Parent = keylol
+UICorner_3.Parent = cancel
 
-local function ZGAYBKJ_fake_script() --[[ LoadScript.mousenter ]]
-	local script = Instance.new('LocalScript', LoadScript)
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.10, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = cancel
 
+copy.Name = "copy"
+copy.Parent = Buttonframe
+copy.BackgroundColor3 = Color3.fromRGB(109, 144, 213)
+copy.Position = UDim2.new(0.179860026, 0, 1.24933994, 0)
+copy.Size = UDim2.new(0, 207, 0, 19)
+copy.ZIndex = 2
+copy.Font = Enum.Font.Roboto
+copy.Text = "Copy Link"
+copy.TextColor3 = Color3.fromRGB(255, 255, 255)
+copy.TextScaled = true
+copy.TextSize = 14.000
+copy.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 6)
+UICorner_4.Parent = copy
+
+outlineload.Name = "outlineload"
+outlineload.Parent = Buttonframe
+outlineload.BackgroundColor3 = Color3.fromRGB(88, 117, 171)
+outlineload.BorderSizePixel = 0
+outlineload.Position = UDim2.new(0.542917311, 0, 0.313432842, 0)
+outlineload.Size = UDim2.new(0, 137, 0, 28)
+
+UICorner_5.CornerRadius = UDim.new(0, 6)
+UICorner_5.Parent = outlineload
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.88, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 0))}
+UIGradient_3.Parent = outlineload
+
+outlinecancel.Name = "outlinecancel"
+outlinecancel.Parent = Buttonframe
+outlinecancel.BackgroundColor3 = Color3.fromRGB(88, 117, 171)
+outlinecancel.BorderSizePixel = 0
+outlinecancel.Position = UDim2.new(0.0206242949, 0, 0.313432842, 0)
+outlinecancel.Size = UDim2.new(0, 137, 0, 28)
+
+UICorner_6.CornerRadius = UDim.new(0, 6)
+UICorner_6.Parent = outlinecancel
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.11, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Parent = outlinecancel
+
+outlinecopy.Name = "outlinecopy"
+outlinecopy.Parent = Buttonframe
+outlinecopy.BackgroundColor3 = Color3.fromRGB(88, 117, 171)
+outlinecopy.BorderSizePixel = 0
+outlinecopy.Position = UDim2.new(0.167121157, 0, 1.21948922, 0)
+outlinecopy.Size = UDim2.new(0, 214, 0, 25)
+
+UICorner_7.CornerRadius = UDim.new(0, 6)
+UICorner_7.Parent = outlinecopy
+
+orTextLabel.Name = "orTextLabel"
+orTextLabel.Parent = Main
+orTextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+orTextLabel.BackgroundTransparency = 1.000
+orTextLabel.Position = UDim2.new(0.44665274, 0, 0.73289907, 0)
+orTextLabel.Size = UDim2.new(0, 30, 0, 16)
+orTextLabel.Font = Enum.Font.FredokaOne
+orTextLabel.Text = "or"
+orTextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+orTextLabel.TextScaled = true
+orTextLabel.TextSize = 14.000
+orTextLabel.TextWrapped = true
+
+GamesList.Name = "GamesList"
+GamesList.Parent = Main
+GamesList.Active = true
+GamesList.BackgroundColor3 = Color3.fromRGB(109, 144, 213)
+GamesList.BackgroundTransparency = 1.000
+GamesList.BorderSizePixel = 0
+GamesList.Position = UDim2.new(0.258154333, 0, 0.296416938, 0)
+GamesList.Size = UDim2.new(0, 171, 0, 110)
+GamesList.CanvasSize = UDim2.new(0, 0, 0.5, 0)
+
+UIListLayout.Parent = GamesList
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 3)
+
+button.Name = "button"
+button.Parent = GamesList
+button.BackgroundColor3 = Color3.fromRGB(118, 159, 230)
+button.Size = UDim2.new(0, 158, 0, 23)
+button.AutoButtonColor = false
+button.Font = Enum.Font.SourceSans
+button.Text = "Game 1"
+button.TextColor3 = Color3.fromRGB(255, 255, 255)
+button.TextScaled = true
+button.TextSize = 14.000
+button.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 6)
+UICorner_8.Parent = button
+
+button_2.Name = "button"
+button_2.Parent = GamesList
+button_2.BackgroundColor3 = Color3.fromRGB(118, 159, 230)
+button_2.Size = UDim2.new(0, 158, 0, 23)
+button_2.AutoButtonColor = false
+button_2.Font = Enum.Font.SourceSans
+button_2.Text = "Game 2"
+button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_2.TextScaled = true
+button_2.TextSize = 14.000
+button_2.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 6)
+UICorner_9.Parent = button_2
+
+text1.Name = "text1"
+text1.Parent = Main
+text1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text1.BackgroundTransparency = 1.000
+text1.Position = UDim2.new(0.0351437703, 0, 0.133550495, 0)
+text1.Size = UDim2.new(0, 297, 0, 22)
+text1.Font = Enum.Font.FredokaOne
+text1.Text = "Checking | [Loading]"
+text1.TextColor3 = Color3.fromRGB(255, 255, 255)
+text1.TextScaled = true
+text1.TextSize = 14.000
+text1.TextWrapped = true
+
+text2.Name = "text2"
+text2.Parent = Main
+text2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text2.BackgroundTransparency = 1.000
+text2.Position = UDim2.new(0.0351437703, 0, 0.24429968, 0)
+text2.Size = UDim2.new(0, 297, 0, 16)
+text2.Font = Enum.Font.FredokaOne
+text2.Text = "List of games"
+text2.TextColor3 = Color3.fromRGB(189, 189, 189)
+text2.TextScaled = true
+text2.TextSize = 14.000
+text2.TextWrapped = true
+
+realsecrettext.Name = "realsecrettext"
+realsecrettext.Parent = Main
+realsecrettext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+realsecrettext.BackgroundTransparency = 1.000
+realsecrettext.Position = UDim2.new(0.0377070531, 0, 0.628664494, 0)
+realsecrettext.Size = UDim2.new(0, 294, 0, 22)
+realsecrettext.Font = Enum.Font.FredokaOne
+realsecrettext.Text = "Not Loading Means Error. Say '/console' in Chat or Press F9"
+realsecrettext.TextColor3 = Color3.fromRGB(186, 186, 186)
+realsecrettext.TextScaled = true
+realsecrettext.TextSize = 14.000
+realsecrettext.TextWrapped = true
+
+z.Name = "z"
+z.Parent = Main
+z.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+z.BackgroundTransparency = 1.000
+z.Position = UDim2.new(0.028753994, 0, 0.82410419, 0)
+z.Size = UDim2.new(0, 294, 0, 26)
+z.Font = Enum.Font.FredokaOne
+z.Text = "Join The Forum!"
+z.TextColor3 = Color3.fromRGB(255, 255, 255)
+z.TextScaled = true
+z.TextSize = 14.000
+z.TextWrapped = true
+
+notify.Name = "notify"
+notify.Parent = Main
+notify.AnchorPoint = Vector2.new(0.5, 0.5)
+notify.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+notify.BorderColor3 = Color3.fromRGB(27, 42, 53)
+notify.BorderSizePixel = 0
+notify.Position = UDim2.new(1.33071506, 0, 0.497901678, 0)
+notify.Size = UDim2.new(0, 195, 0, 154)
+notify.Visible = false
+
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = notify
+
+Title_2.Name = "Title"
+Title_2.Parent = notify
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Position = UDim2.new(0.0162951276, 0, 0.0325521491, 0)
+Title_2.Size = UDim2.new(0, 190, 0, 16)
+Title_2.Font = Enum.Font.FredokaOne
+Title_2.Text = "UNIQUE HUB V2"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+desc.Name = "desc"
+desc.Parent = notify
+desc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc.BackgroundTransparency = 1.000
+desc.Position = UDim2.new(0.0162951276, 0, 0.441643059, 0)
+desc.Size = UDim2.new(0, 185, 0, 16)
+desc.Font = Enum.Font.FredokaOne
+desc.Text = "Copied To Clipboard"
+desc.TextColor3 = Color3.fromRGB(167, 167, 167)
+desc.TextScaled = true
+desc.TextSize = 14.000
+desc.TextWrapped = true
+
+ok.Name = "ok"
+ok.Parent = notify
+ok.BackgroundColor3 = Color3.fromRGB(109, 144, 213)
+ok.Position = UDim2.new(0.179337338, 0, 0.765525341, 0)
+ok.Size = UDim2.new(0, 120, 0, 24)
+ok.Font = Enum.Font.Roboto
+ok.Text = "OK"
+ok.TextColor3 = Color3.fromRGB(255, 255, 255)
+ok.TextScaled = true
+ok.TextSize = 14.000
+ok.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 6)
+UICorner_11.Parent = ok
+
+placeholdr.Name = "placeholdr"
+placeholdr.Parent = Main
+
+button_3.Name = "button"
+button_3.Parent = placeholdr
+button_3.BackgroundColor3 = Color3.fromRGB(118, 159, 230)
+button_3.Size = UDim2.new(0, 158, 0, 23)
+button_3.Visible = false
+button_3.AutoButtonColor = false
+button_3.Font = Enum.Font.SourceSans
+button_3.Text = "Game 2"
+button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_3.TextScaled = true
+button_3.TextSize = 14.000
+button_3.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 6)
+UICorner_12.Parent = button_3
+
+local function ILOZS_fake_script() -- load.OnHover 
+	local script = Instance.new('LocalScript', load)
+
+	
 	script.Parent.MouseEnter:Connect(function()
-		LoadScript.BackgroundColor3 = Color3.new(0.415686, 0.545098, 0.807843)
+	script.Parent.Text = "Click to Load"
 	end)
 	
 	script.Parent.MouseLeave:Connect(function()
-		LoadScript.BackgroundColor3 = Color3.new(0.372549, 0.486275, 0.72549)
-	end)
-end
-coroutine.wrap(ZGAYBKJ_fake_script)()
-local function UNCWKBO_fake_script() --[[ Main.Main ]]
-	local script = Instance.new('LocalScript', Main)
-
-	
-	_G.ScriptStillNotTakenDown = true
-	script.Parent.Parent.Main.Size = UDim2.new(0,0,0,0)
-	script.Parent.Parent.Main.Visible=false
-	local par = String
-	
-	par.Text = ""
-	if not game:IsLoaded() then game:IsLoaded() wait() end
-	task.wait(1)
-		Pattern.Visible=false
-	TextLabel.Visible=false
-	Main.Visible =true
-	Main:TweenSize(UDim2.new(0, 267,0, 174), "InOut", "Quint", 1)
-	
-	task.wait(1)
-	par.Visible=true
-	
-	Pattern.Visible=true
-	TextLabel.Visible=true
-	par.Text = "Enter Key To Proceed"
-	keylol.Visible = true
-	task.wait(0.5)
-	par.Text = "just kidding"
-	keylol.Visible = false
-	task.wait(0.7)
-	par.Text = ""
-	repeat wait() until game.Players.LocalPlayer
-	if _G.ScriptStillNotTakenDown == true then
-		par.Text = "Ready to load"
-	end
-	
-	script.Parent:FindFirstChild("LoadScript").Visible = true
-	
-	script.Parent:FindFirstChild("LoadScript").MouseButton1Click:Connect(function()
-		par.Visible=false
-		LoadScript.Visible=false
-		Pattern.Visible=false
-		TextLabel.Visible=false
-		Main:TweenSize(UDim2.new(0, 0, 0, 0), "Out", "Bounce", 1)
-		task.wait(1)
-		pcall(function()
-			Intro:Destroy()
-			end)
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/Unique_Hub_v2', true))() -- will always update no need to do anything
+	script.Parent.Text = "Load"
 	end)
 	
-	
 end
-coroutine.wrap(UNCWKBO_fake_script)()
-local function JZUAXU_fake_script() --[[ Main.Dragify ]]
-	local script = Instance.new('LocalScript', Main)
+coroutine.wrap(ILOZS_fake_script)()
+local function AEQQCWR_fake_script() -- load.loadscript 
+	local script = Instance.new('LocalScript', load)
 
-	local UIS = game:GetService("UserInputService")
-	local dragSpeed = -math.huge
-	
-	local dragToggle = nil
-	local dragInput = nil
-	local dragStart = nil
-	local dragPos = nil
-	
-	function dragify(Frame)
-		function updateInput(input)
-	        local Delta = input.Position - dragStart
-	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
-	        script.Parent.Position = Position
+	local Raw = "https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/Unique_Hub_v2"
+	local v = script.Parent.Parent.Parent.Parent.Main
+	local z = script.Parent.Parent.Parent.Parent.Parent.uniquehubv2Intro
+	local f = false
+	function HubLoadStr(istruemode)
+		if istruemode == true then
+			loadstring(game:HttpGet(Raw, true))()
+		else
+			if istruemode == false then
+				loadstring(game:HttpGet(Raw))()
+			end
 		end
-		
-	    Frame.InputBegan:Connect(function(input)
-	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
-	            dragToggle = true
-	            dragStart = input.Position
-	            startPos = Frame.Position
-	            input.Changed:Connect(function()
-	                if input.UserInputState == Enum.UserInputState.End then
-	                    dragToggle = false
-	                end
-	            end)
-	        end
-		end)
-		
-	    Frame.InputChanged:Connect(function(input)
-	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-	            dragInput = input
-	        end
-		end)
-		
-	    game:GetService("UserInputService").InputChanged:Connect(function(input)
-	        if input == dragInput and dragToggle then
-	            updateInput(input)
-	        end
-	    end)
+	
 	end
 	
-	dragify(script.Parent)
+	script.Parent.MouseButton1Click:Connect(function()
+		pcall(function()
+			HubLoadStr(true)
+		end)
+		for i,things in pairs(v:GetChildren()) do
+	
+			if things:IsA("Frame") then
+				things.Visible = f
+			end
+			if things:IsA("TextLabel") then
+				things.Visible = f
+			end
+			if things:IsA("ScrollingFrame") then
+				things.Visible = f
+			end
+	
+	
+		end
+		v:TweenSize(UDim2.new(0,0,0,0), "InOut", "Quint", 1)
+		wait(1)
+		z:Destroy()
+	end)
 end
-coroutine.wrap(JZUAXU_fake_script)()
+coroutine.wrap(AEQQCWR_fake_script)()
+local function KRVYI_fake_script() -- cancel.OnHover 
+	local script = Instance.new('LocalScript', cancel)
+
+	
+	script.Parent.MouseEnter:Connect(function()
+	script.Parent.Text = "Click to Cancel"
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	script.Parent.Text = "Cancel"
+	end)
+	
+end
+coroutine.wrap(KRVYI_fake_script)()
+local function PGZDW_fake_script() -- cancel.cancelscript 
+	local script = Instance.new('LocalScript', cancel)
+
+	local v = script.Parent.Parent.Parent.Parent.Main
+	local z = script.Parent.Parent.Parent.Parent.Parent.uniquehubv2Intro
+	local f = false
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		for i,things in pairs(v:GetChildren()) do
+	
+			if things:IsA("Frame") then
+				things.Visible = f
+			end
+			if things:IsA("TextLabel") then
+				things.Visible = f
+			end
+			if things:IsA("ScrollingFrame") then
+				things.Visible = f
+			end
+	
+	
+		end
+		v:TweenSize(UDim2.new(0,0,0,0), "InOut", "Quint", 1)
+		wait(1)
+		z:Destroy()
+	end)
+end
+coroutine.wrap(PGZDW_fake_script)()
+local function DVZYSOE_fake_script() -- copy.copylink 
+	local script = Instance.new('LocalScript', copy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard("https://forum.robloxscripts.com")
+		script.Parent.Parent.Parent.notify.Visible = true
+	end)
+end
+coroutine.wrap(DVZYSOE_fake_script)()
+local function ECFIAZ_fake_script() -- copy.OnHover 
+	local script = Instance.new('LocalScript', copy)
+
+	
+	script.Parent.MouseEnter:Connect(function()
+	script.Parent.Text = "Click to Copy"
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	script.Parent.Text = "Copy Link"
+	end)
+	
+end
+coroutine.wrap(ECFIAZ_fake_script)()
+local function YKTCXTK_fake_script() -- text1.LocalScript 
+	local script = Instance.new('LocalScript', text1)
+
+	local getgamename = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name -- you may use this for your game hub... just for easy game-name grab instend of typing it everytime (will auto-update eventally)
+	local workinglol = true
+	local ConfirmWorking = "NO TEXT"
+	if workinglol==true then ConfirmWorking="Yes" else ConfirmWorking="No" end
+	script.Parent.Text = "Game: " ..getgamename.. " | Working: " ..ConfirmWorking
+end
+coroutine.wrap(YKTCXTK_fake_script)()
+local function GPYRJLN_fake_script() -- Main.MainScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local v = script.Parent.Parent.Main
+	
+	
+	local f = false
+	local t = true
+	
+	v.Size = UDim2.new(0, 0, 0, 0)
+	
+	
+	for i,things in pairs(v:GetChildren()) do
+	
+		if things:IsA("Frame") then
+			things.Visible = f
+		end
+		if things:IsA("TextLabel") then
+			things.Visible = f
+		end
+		if things:IsA("ScrollingFrame") then
+			things.Visible = f
+		end
+	
+	
+	end
+	
+	if not game:IsLoaded() then
+		game:IsLoaded():Wait()
+	end
+	
+	wait(1.5)
+	
+	v:TweenSize(UDim2.new(0, 313,0, 307), "InOut", "Quint", 1)
+	
+	task.wait(1)
+	
+	for i,things in pairs(v:GetChildren()) do
+	
+		if things:IsA("Frame") then
+			things.Visible = t
+		end
+		if things:IsA("TextLabel") then
+			things.Visible = t
+		end
+		if things:IsA("ScrollingFrame") then
+			things.Visible = t
+		end
+	
+	
+	end
+	
+	script.Parent.notify.Visible = false
+end
+coroutine.wrap(GPYRJLN_fake_script)()
+local function AGHQA_fake_script() -- ok.LocalScript 
+	local script = Instance.new('LocalScript', ok)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.notify.Visible = false
+	end)
+end
+coroutine.wrap(AGHQA_fake_script)()
+local function LGSZD_fake_script() -- Main.GamesLister, hi dont look at my code
+	local script = Instance.new('LocalScript', Main)
+
+	local m = script.Parent.GamesList
+	
+	for i, buttons in pairs(m:GetChildren()) do
+		if buttons:IsA("TextButton") then
+			buttons:Destroy()
+		end
+	end
+	
+	
+	function CreateGameList(name, working)
+		local getbutton = script.Parent.placeholdr.button:Clone()
+		getbutton.Text = name
+		
+		getbutton.MouseEnter:Connect(function()
+			if working == true then
+				getbutton.Text = "Working"
+			else
+				if working == false then
+					getbutton.Text = "Patched"
+				else
+					if working == "P-patched" then
+						getbutton.Text = "Probably Patched"
+					else
+						if working == "dis" then
+							getbutton.Text = "Discontinued"
+						end
+					end
+			end
+			end
+	
+		end)
+		getbutton.MouseLeave:Connect(function()
+			getbutton.Text = name
+		end)
+		getbutton.Visible = true
+		getbutton.Parent = m
+	end
+	-- your currently watching this, 100% comfirmo you've gonna use it for your game hub lol (you can use the source just please make your own GUI dont edit mine or i be so mad)
+	CreateGameList("The Underground War", true)
+	CreateGameList("Natural Disaster Survival", true)
+	CreateGameList("Rebirth Champions X", true)
+	
+	
+end
+coroutine.wrap(LGSZD_fake_script)()
