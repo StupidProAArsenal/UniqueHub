@@ -73,7 +73,7 @@ local UIGradient_22 = Instance.new("UIGradient")
 local UICorner_23 = Instance.new("UICorner")
 
 uniqueHubv2intro.Name = "uniqueHubv2intro"
-uniqueHubv2intro.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+uniqueHubv2intro.Parent = game.CoreGui
 uniqueHubv2intro.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainUI.Name = "MainUI"
