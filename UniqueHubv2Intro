@@ -951,7 +951,7 @@ local function RDPP_fake_script() -- copylink.copy
 	script.Parent.MouseButton1Click:Connect(function()
 		if shadow.Visible == false then
 			pcall(function()
-				setclipboard("link here!")
+				setclipboard("https://forum.robloxscripts.com/")
 			end)
 			shadow.Visible = true
 			spawn(function()
