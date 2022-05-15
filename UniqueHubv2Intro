@@ -784,6 +784,7 @@ local function NDBUQZR_fake_script() -- GamesList.gameslister
 	CreateGameList("Rebirth Champions X", true)
 	CreateGameList("Brawl-Blox", true)
 	CreateGameList("Hide and Seek Extreme", true)
+	CreateGameList("generic roleplay gaem.", true)
 end
 coroutine.wrap(NDBUQZR_fake_script)()
 local function SWYOYR_fake_script() -- Load.loadscript 
