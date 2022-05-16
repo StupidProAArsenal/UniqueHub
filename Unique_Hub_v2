@@ -19,7 +19,7 @@ if game.PlaceId == 205224386 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/Hide%20and%20Eat%20Caca%20Extreme"))()
 else
 if game.PlaceId == 4598019433 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/generic%20caca%20gaem"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/generic%20caca%20gaem", true))()
 end
 end
 end
