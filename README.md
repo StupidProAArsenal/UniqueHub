@@ -1,6 +1,6 @@
 # Unique Hub v2
 
-###A simple game hub with cool UI Library and Somehow alot features
+- A simple game hub with cool UI Library and Somehow alot features
 - 5+ Games
 - 100% Free
 
