@@ -1,11 +1,8 @@
 # Unique Hub v2
 
-A simple game hub with cool UI Library and Somehow alot features
+| A simple game hub with cool UI Library and Somehow alot features |
 
-![image](https://user-images.githubusercontent.com/76736126/164567159-fd1b9abd-c2aa-4a9f-bd7a-7299533029b5.png)
-
-
-# Do you log info's
+## Do you log info's
 No, I did not put any logging & Never
 
 # Will this game hub be paid with few games
