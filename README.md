@@ -1,3 +1,33 @@
+# Unique Hub v3
+
+A game hub with Fluent UI Library made by dawid.
+
+Games planned:
+- ideas jumped off my brain
+
+### Do you log any information
+I wouldn't put any logging as this *could* be open source
+- This hub does not have a whitelist even though it has key system
+- 
+### Any paid games?
+Yet again, everything will be free but with a key system optionally - thanks to dekudimz so i can put optionally and not force it
+
+### The game banned me for exploiting
+Contact me on discord "stupidproarsenal" to let me know if the game banned you for exploiting, ill look into it and attempt a fix. otherwise ill have to remove a couple features if not successful.
+
+### Do you have team to help you with this hub?
+Well, still not. But v.g hub owner (dekudimz) said he could, i refused for his help, and would ask sometimes.
+
+### How well do you know lua + how did you learn lua?
+A lot (Not really)
+- Roblox Studio, Roblox DevForum Helps, Open source scripts, Youtube
+
+### How do i request a game?
+Join the discord server to do so!
+- https://discord.gg/eEsqRzWbgJ
+
+
+-- archive of v2 --
 # Unique Hub v2
 
 A simple game hub with cool UI Library and Somehow alot features
