@@ -1,6 +1,6 @@
 # Unique Hub v3
 
-A game hub with Fluent UI Library made by dawid.
+A game hub with Fluent UI Library
 
 Games planned:
 - ideas jumped off my brain
